@@ -309,6 +309,11 @@ footer{
     background-color: #BCD2EE;
     padding: 0px 5px 0px 5px;
 }
+.animate__pulse{
+    animation-duration: 1.5s;
+    animation-delay: .2s;
+    animation-timing-function: ease;
+}
 .fondo-producto{
     background-color: white;
 }
@@ -331,10 +336,17 @@ footer{
     margin: 0px 15px 5px 15px;
 }
 .imagen-producto{
-    border: solid 5px #33435B;
+    border: solid 3px #33435B;
     border-radius: 30px;
+    margin-right: 6px;
     width: 120px;
     height: 120px;
+    transition-property: all;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+}
+.imagen-producto:hover{
+    transform: scale(1.2);
 }
 /*Inicia MEDIA QUERIES */
 @media screen and (min-width: 480px) {
@@ -358,6 +370,11 @@ footer{
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: rgb(121, 65, 17);
+}
+.animate__zoomIn{
+    animation-duration: 2s;
+    animation-delay: .2s;
+    animation-timing-function: ease;
 }
 .subencabezado-blog{
     font-size: 1em;

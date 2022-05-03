@@ -121,13 +121,6 @@ footer{
 
 
 /* -------------------------------------------------------------------------------------------INDEX */
-.portada{
-    text-align: center;
-}
-.imagen-portada{
-    width: 99%;
-    padding-top: 15px;
-}
 .texto-index{
     text-align: center;
     font-size: 1.2em;

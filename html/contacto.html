@@ -60,7 +60,7 @@
                                 <li class="nav-item item-navegador">
                                     <a class="nav-link active fw-bold text-white" href="blog.html">BLOG</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item item-navegador">
                                     <a class="nav-link active fw-bold text-white" href="contacto.html">CONTACTO</a>
                                 </li>
                             </ul>
@@ -70,57 +70,58 @@
     </header>
 
     <main>
-        <section>
-            <h1 class="encabezado-contacto">REALIZA TU CONSULTA</h1>
-        </section>
-        <section class="subencabezado-contacto contacto">
-                    <ul class="lista-contacto formulario-contacto">
+        <div class="container">
+            <div class="row">
+                <section>
+                    <h1 class="encabezado-contacto">REALIZA TU CONSULTA</h1>
+                </section>
+            </div>
+            <div class="row">
+                    <section class="col-md-5">
                         <form action="">
-                            <li>
-                                <label for="Nombre Completo">Nombre Completo</label>
-                                <br>
-                                <input type="text" value="" id="Nombre-Completo" name="Nombre Completo" placeholder="Ingrese Nombre Completo">
-                            </li>
-                            <li>
-                                <label for="Correo electronico">Correo electronico</label>
-                                <br>
-                                <input type="email" value="" id="Correo-electronico" name="Correo electronico" placeholder="Ingrese Correo electronico">
-                            </li>
-                            <li>
-                                <label for="Numero de telefono">Numero de telefono</label>
-                                <br>
-                                <input type="text" value="" id="Numero-de-telefono" name="Numero de telefono" placeholder="Ingrese Numero de telefono">
-                            </li>
-                            <li>
-                                <label for="Consulta Sobre">Deseo consultar sobre:</label>
-                                <br>
-                                <select name="Consulta Sobre" id="Consulta-Sobre">
-                                <option value="" selected>-Seleccione-</option>
-                                <option value="Productos">Productos</option>
-                                <option value="Envio">Envio</option>
-                                <option value="Pago">Pago</option>
-                                <option value="Otro">Otro</option>
+                            <div class="mb-3">
+                                <label for="Nombre Completo" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="Nombre Completo" placeholder="Ingrese Nombre Completo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Correo Electronico" class="form-label">Correo Electronico</label>
+                                <input type="text" class="form-control" id="Correo Electronico" placeholder="Ingrese Correo Electronico">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Numero de Telefono" class="form-label">Numero de Telefono</label>
+                                <input type="text" class="form-control" id="Numero de Telefono" placeholder="Ingrese Numero de Telefono">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Consulta Sobre" class="form-label">Deseo consultar sobre:</label>
+                                <select id="disabledSelect" class="form-select">
+                                    <option value="" selected>-Seleccione-</option>
+                                    <option value="Productos">Productos</option>
+                                    <option value="Envio">Envio</option>
+                                    <option value="Pago">Pago</option>
+                                    <option value="Otro">Otro</option>
                                 </select>
-                            </li>
-                            <li>
-                                <label for="Realiza tu consulta">Realiza tu consulta</label>
-                                <br>
-                                <textarea name="Realiza aqui tu consulta" id="" cols="30" rows="10" placeholder="Escriba aqui su consulta..."></textarea>
-                            </li>
-                            <li>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Realiza tu consulta" class="form-label">Realiza tu consulta</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba aqui su consulta..."></textarea>
+                            </div>
+                            <div>
                                 <input type="submit" value="Enviar"> <input type="reset" value="Limpiar Campos">
-                            </li>
+                            </div>
                         </form>
-                    </ul>
-                    <ul class="lista-contacto ubicacion">
-                        <li>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15935.01402592778!2d7.692131656070395!3d45.08702768904971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d9229666dbf%3A0x8cb80e15b1dc210c!2sVia%20Feletto%2C%205%2C%2010155%20Torino%20TO!5e0!3m2!1ses-419!2sit!4v1648749161381!5m2!1ses-419!2sit" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </li>
-                        <li>
-                            <a href="https://goo.gl/maps/uqacgTLmax7o4uCA6" target="_blank"><input type="button" value="UBICACION AQUI"></a>
-                        </li>
-                    </ul>
-        </section>
+                    </section>
+                    <section class="col-md-7">
+                        <ul class="lista-contacto ubicacion">
+                            <li>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15935.01402592778!2d7.692131656070395!3d45.08702768904971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d9229666dbf%3A0x8cb80e15b1dc210c!2sVia%20Feletto%2C%205%2C%2010155%20Torino%20TO!5e0!3m2!1ses-419!2sit!4v1648749161381!5m2!1ses-419!2sit" width="350" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </li>
+                            <li>
+                                <a href="https://goo.gl/maps/uqacgTLmax7o4uCA6" target="_blank"><button type="button" class="btn btn-dark">UBICACION AQUI</button></a>
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+        </div>
     </main>
     
     <footer class="bg-dark">

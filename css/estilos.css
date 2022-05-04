@@ -240,7 +240,7 @@ footer{
 .subencabezado-productos{
     color: black;
     font-size: 1.1em;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Roboto', sans-serif;
     border: solid 2px #33435B;
     border-radius: 15px;
@@ -263,11 +263,6 @@ footer{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-}
-.item-productos{
-    display: inline-block;
-    padding: 0px 15px 5px 15px;
-    margin: 0px 15px 5px 15px;
 }
 .imagen-producto{
     border: solid 3px #33435B;
@@ -302,25 +297,12 @@ footer{
     margin: 50px;
 }
 .encabezado2-blog{
-    font-size: 1.3em;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(121, 65, 17);
+    margin: 5px;
 }
 .animate__zoomIn{
     animation-duration: 2s;
     animation-delay: .2s;
     animation-timing-function: ease;
-}
-.subencabezado-blog{
-    font-size: 1em;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-}
-.texto-blog{
-    font-size: 1em;
-    font-weight: 400;
-    font-family: 'Dosis', sans-serif;
 }
 .imagen-blog{
     width: 99%;
@@ -340,8 +322,6 @@ footer{
     grid-template-areas:
     "titulo"
     "foto" 
-    "ingredientes" 
-    "pasoApaso";
 }
 .foto{
     grid-area: foto;
@@ -350,36 +330,25 @@ footer{
 .titulo{
     grid-area: titulo;
     text-align: center;
-    background-color: rgb(248, 217, 92);
-}
-.ingredientes{
-    grid-area: ingredientes;
-    margin-left: 10px;
-}
-.pasoApaso{
-    grid-area: pasoApaso;
-    margin-left: 10px;
+    background-color: rgb(255, 201, 14);
 }
 /*Inicia MEDIA QUERIES */
 @media screen and (min-width: 480px) {
     .encabezado-blog{
         font-size: 2em;
-    }
+    }   
     .encabezado2-blog{
         font-size: 1.8em;
     }
     .subencabezado-blog{
         font-size: 1.1em;
     }
-    .texto-blog{
-        font-size: 1.3em;
-    }
     .imagen-blog{
         width: 99%;
         height: 370px;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
     .chocotorta{
         display: grid;
         grid-template-areas:

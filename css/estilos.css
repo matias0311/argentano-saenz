@@ -216,6 +216,11 @@ footer{
         opacity: 1;
     }
 }
+.check:after{
+    content: "✔";
+    color: green;
+    width: 30px;
+}
 /*Inicia MEDIA QUERIES */
 @media screen and (min-width: 480px) {
     .texto-comoFunciona{

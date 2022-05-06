@@ -1,0 +1,56 @@
+/* -------------------------------------------------------------------------------------------------PRODUCTOS */
+.encabezado-productos{
+    color: $color-secondary;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    margin: 50px;
+}
+.subencabezado-productos{
+    color: $color-tertiary;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    border: solid 2px $color-secondary;
+    border-radius: 15px;
+    background-color: $color-primary;
+    padding: 0px 5px 0px 5px;
+}
+.fondo-producto{
+    background-color: white;
+    margin: 2px 10px 2px 10px;
+}
+.texto-productos{
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 25px;
+}
+.lista-productos{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-producto{
+    border: solid 3px $color-secondary;
+    border-radius: 30px;
+    margin-right: 6px;
+    width: 120px;
+    height: 120px;
+    transition-property: all;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+    margin: 6px;
+}
+.imagen-producto:hover{
+    transform: scale(1.2);
+}
+/*Inicia MEDIA QUERIES */
+@media screen and (min-width: 480px) {
+    .encabezado-productos{
+        font-size: 2em;
+    }
+}

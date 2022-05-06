@@ -1,0 +1,80 @@
+/* ------------------------------------------------------------------------------------------COMO FUNCIONA */
+.encabezado-comoFunciona{
+    color: $color-secondary;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    margin: 40px;
+}
+.lista-comoFunciona{
+    list-style-type: none;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+}
+.texto-comoFunciona{
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Dosis', sans-serif;
+}
+.ordenar{
+    animation-name: aparece;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+}
+.armar{
+    animation-name: aparece;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+}
+.enviar{
+    animation-name: aparece;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+}
+.pagar{
+    animation-name: aparece;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+}
+.disfrutar{
+    animation-name: aparece;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 6s;
+}
+@keyframes aparece{
+    0%{
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.check{
+    &:after{
+        width: 5px;
+        content: "✔";
+        color: green;
+        width: 30px;
+    }
+}
+
+/*Inicia MEDIA QUERIES */
+@media screen and (min-width: 480px) {
+    .texto-comoFunciona{
+        font-size: 1.6em;
+    }
+    .encabezado-comoFunciona{
+        font-size: 2em;
+    }
+}

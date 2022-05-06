@@ -1,0 +1,14 @@
+/* ----------------------------------------------------------------------------------------ESTILOS GENERALES */
+body{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+/* ----------------------------------------------------------------------------------------------MAIN */
+main{
+    grid-area: main;
+}

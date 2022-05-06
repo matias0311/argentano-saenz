@@ -1,0 +1,33 @@
+/* -------------------------------------------------------------------------------------------INDEX */
+.texto-index{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: 'Dosis', sans-serif;
+    margin: 20px;
+}
+.encabezado-index{
+    color: $color-secondary;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    margin-top: 50px;
+}
+/*Inicia MEDIA QUERIES */
+@media screen and (min-width: 480px) {
+    .texto-index{
+        font-size: 1.4em;
+    }
+    .encabezado-index{
+        font-size: 1.8em;
+    }
+}
+@media screen and (min-width: 768px) {
+    .texto-index{
+        font-size: 1.6em;
+    }
+    .encabezado-index{
+        font-size: 2em;
+    }
+}

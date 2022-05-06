@@ -1,0 +1,25 @@
+/* ---------------------------------------------------------------------------------------------HEADER */
+.imagen-logo{
+    width: 210px;
+    height: 55px;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+/* inicia MEDIA QUERIES*/
+@media screen and (min-width: 992px) {
+    .item-navegador{
+        margin-left: 2px;
+        margin-right: 2px;
+        transition-property: all;
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
+    .item-navegador:hover{
+        transform: scale(1.1);
+    }
+}

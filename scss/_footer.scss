@@ -30,7 +30,7 @@ footer{
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente-links, sans-serif;
 }
 .link-footer2{
     display: none;
@@ -38,7 +38,7 @@ footer{
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente-encabezados, sans-serif;
 }
 .botonIndex{
     padding: 0px;
@@ -51,24 +51,4 @@ footer{
 .animate__flipInX{
     animation-duration: 1.5s;
     animation-delay: .5s;
-}
-/* Inicia MEDIA QUERIES */
-@media screen and (min-width: 480px) {
-    .item-footer{
-        display: inline-block;
-        padding: 5px;
-        margin: 5px;
-    }
-}
-@media screen and (min-width: 768px) {
-    .lista-footer{
-        align-items: baseline;
-    }
-    .link-footer2{
-        display: inline;
-    }
-    .imagen-footer{
-        width: 40px;
-        height: 40px;
-    }
 }

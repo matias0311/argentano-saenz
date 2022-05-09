@@ -4,7 +4,7 @@
     text-align: center;
     font-size: 1.5em;
     font-weight: 500;
-    font-family: 'Jost', sans-serif;
+    font-family: $fuente-encabezados, sans-serif;
     margin: 50px;
 }
 .encabezado2-blog{
@@ -43,39 +43,4 @@
     grid-area: titulo;
     text-align: center;
     background-color: $color-primary;
-}
-/*Inicia MEDIA QUERIES */
-@media screen and (min-width: 480px) {
-    .encabezado-blog{
-        font-size: 2em;
-    }   
-    .encabezado2-blog{
-        font-size: 1.8em;
-    }
-    .subencabezado-blog{
-        font-size: 1.1em;
-    }
-    .imagen-blog{
-        width: 99%;
-        height: 370px;
-    }
-}
-@media screen and (min-width: 992px) {
-    .chocotorta{
-        display: grid;
-        grid-template-areas:
-        "titulo titulo titulo"
-        "foto ingredientes pasoApaso";
-    }
-    .alfajorcitosMaicena{
-        padding-top: 50px;
-        display: grid;
-        grid-template-areas:
-        "titulo titulo titulo"
-        "foto ingredientes pasoApaso";
-    }
-    .imagen-blog{
-        width: 400px;
-        height: 300px;
-    }
 }

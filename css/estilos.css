@@ -1,9 +1,13 @@
 @charset "UTF-8";
+/* Variables de Colores */
+/* Variables de Fuentes */
 /* ----------------------------------------------------------------------------------------ESTILOS GENERALES */
 body {
   background-color: #ffffff;
   display: grid;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: "header"
+ "main"
+ "footer"; }
 
 /* ----------------------------------------------------------------------------------------------MAIN */
 main {
@@ -18,17 +22,6 @@ main {
   transition-timing-function: ease; }
   .imagen-logo:hover {
     transform: scale(1.1); }
-
-/* inicia MEDIA QUERIES*/
-@media screen and (min-width: 992px) {
-  .item-navegador {
-    margin-left: 2px;
-    margin-right: 2px;
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: ease; }
-  .item-navegador:hover {
-    transform: scale(1.1); } }
 
 /* ---------------------------------------------------------------------------------------------FOOTER */
 footer {
@@ -62,7 +55,7 @@ footer {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: 500;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 .link-footer2 {
   display: none;
@@ -70,7 +63,7 @@ footer {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: 500;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Jost", sans-serif; }
 
 .botonIndex {
   padding: 0px;
@@ -84,28 +77,12 @@ footer {
   animation-duration: 1.5s;
   animation-delay: .5s; }
 
-/* Inicia MEDIA QUERIES */
-@media screen and (min-width: 480px) {
-  .item-footer {
-    display: inline-block;
-    padding: 5px;
-    margin: 5px; } }
-
-@media screen and (min-width: 768px) {
-  .lista-footer {
-    align-items: baseline; }
-  .link-footer2 {
-    display: inline; }
-  .imagen-footer {
-    width: 40px;
-    height: 40px; } }
-
 /* -------------------------------------------------------------------------------------------INDEX */
 .texto-index {
   text-align: center;
   font-size: 1.1em;
   font-weight: 400;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   margin: 20px; }
 
 .encabezado-index {
@@ -113,21 +90,8 @@ footer {
   text-align: center;
   font-size: 1.1em;
   font-weight: 500;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   margin-top: 50px; }
-
-/*Inicia MEDIA QUERIES */
-@media screen and (min-width: 480px) {
-  .texto-index {
-    font-size: 1.4em; }
-  .encabezado-index {
-    font-size: 1.8em; } }
-
-@media screen and (min-width: 768px) {
-  .texto-index {
-    font-size: 1.6em; }
-  .encabezado-index {
-    font-size: 2em; } }
 
 /* ------------------------------------------------------------------------------------------COMO FUNCIONA */
 .encabezado-comoFunciona {
@@ -135,7 +99,7 @@ footer {
   text-align: center;
   font-size: 1.5em;
   font-weight: 500;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   margin: 40px; }
 
 .lista-comoFunciona {
@@ -149,7 +113,7 @@ footer {
 .texto-comoFunciona {
   font-size: 1.2em;
   font-weight: 400;
-  font-family: 'Dosis', sans-serif; }
+  font-family: "Dosis", sans-serif; }
 
 .ordenar {
   animation-name: aparece;
@@ -195,27 +159,20 @@ footer {
   color: green;
   width: 30px; }
 
-/*Inicia MEDIA QUERIES */
-@media screen and (min-width: 480px) {
-  .texto-comoFunciona {
-    font-size: 1.6em; }
-  .encabezado-comoFunciona {
-    font-size: 2em; } }
-
 /* -------------------------------------------------------------------------------------------------PRODUCTOS */
 .encabezado-productos {
   color: #3C4F76;
   text-align: center;
   font-size: 1.5em;
   font-weight: 500;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   margin: 50px; }
 
 .subencabezado-productos {
   color: black;
   font-size: 1.1em;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   border: solid 2px #3C4F76;
   border-radius: 15px;
   background-color: #ffc90e;
@@ -228,7 +185,7 @@ footer {
 .texto-productos {
   font-size: 1.5em;
   font-weight: 400;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   margin-bottom: 25px; }
 
 .lista-productos {
@@ -248,14 +205,8 @@ footer {
   transition-duration: .4s;
   transition-timing-function: ease;
   margin: 6px; }
-
-.imagen-producto:hover {
-  transform: scale(1.2); }
-
-/*Inicia MEDIA QUERIES */
-@media screen and (min-width: 480px) {
-  .encabezado-productos {
-    font-size: 2em; } }
+  .imagen-producto:hover {
+    transform: scale(1.2); }
 
 /* -----------------------------------------------------------------------------------------------------------BLOG */
 .encabezado-blog {
@@ -263,7 +214,7 @@ footer {
   text-align: center;
   font-size: 1.5em;
   font-weight: 500;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   margin: 50px; }
 
 .encabezado2-blog {
@@ -281,12 +232,16 @@ footer {
 
 .chocotorta {
   display: grid;
-  grid-template-areas: "titulo" "foto"  "ingredientes"  "pasoApaso"; }
+  grid-template-areas: "titulo"
+ "foto" 
+ "ingredientes" 
+ "pasoApaso"; }
 
 .alfajorcitosMaicena {
   padding-top: 50px;
   display: grid;
-  grid-template-areas: "titulo" "foto"; }
+  grid-template-areas: "titulo"
+ "foto"; }
 
 .foto {
   grid-area: foto;
@@ -297,7 +252,79 @@ footer {
   text-align: center;
   background-color: #ffc90e; }
 
-/*Inicia MEDIA QUERIES */
+/* ---------------------------------------------------------------------------------------------------CONTACTO */
+.encabezado-contacto {
+  color: #3C4F76;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  margin: 50px; }
+
+.lista-contacto {
+  list-style-type: none;
+  padding: 20px; }
+
+.ubicacion {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px; }
+
+/* ----------------------------------------------------------------------------MEDIA QUERIES HEADER */
+@media screen and (min-width: 992px) {
+  .item-navegador {
+    margin-left: 2px;
+    margin-right: 2px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease; }
+    .item-navegador:hover {
+      transform: scale(1.1); } }
+
+/* ------------------------------------------------------------------------------MEDIA QUERIES FOOTER */
+@media screen and (min-width: 480px) {
+  .item-footer {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px; } }
+
+@media screen and (min-width: 768px) {
+  .lista-footer {
+    align-items: baseline; }
+  .link-footer2 {
+    display: inline; }
+  .imagen-footer {
+    width: 40px;
+    height: 40px; } }
+
+/*-------------------------------------------------------------------------------MEDIA QUERIES INDEX*/
+@media screen and (min-width: 480px) {
+  .texto-index {
+    font-size: 1.4em; }
+  .encabezado-index {
+    font-size: 1.8em; } }
+
+@media screen and (min-width: 768px) {
+  .texto-index {
+    font-size: 1.6em; }
+  .encabezado-index {
+    font-size: 2em; } }
+
+/*-----------------------------------------------------------------------------MEDIA QUERIES COMO FUNCIONA */
+@media screen and (min-width: 480px) {
+  .texto-comoFunciona {
+    font-size: 1.6em; }
+  .encabezado-comoFunciona {
+    font-size: 2em; } }
+
+/*--------------------------------------------------------------------------------------MEDIA QUERIES PRODUCTOS */
+@media screen and (min-width: 480px) {
+  .encabezado-productos {
+    font-size: 2em; } }
+
+/*------------------------------------------------------------------------------------ MEDIA QUERIES BLOG */
 @media screen and (min-width: 480px) {
   .encabezado-blog {
     font-size: 2em; }
@@ -312,36 +339,18 @@ footer {
 @media screen and (min-width: 992px) {
   .chocotorta {
     display: grid;
-    grid-template-areas: "titulo titulo titulo" "foto ingredientes pasoApaso"; }
+    grid-template-areas: "titulo titulo titulo"
+ "foto ingredientes pasoApaso"; }
   .alfajorcitosMaicena {
     padding-top: 50px;
     display: grid;
-    grid-template-areas: "titulo titulo titulo" "foto ingredientes pasoApaso"; }
+    grid-template-areas: "titulo titulo titulo"
+ "foto ingredientes pasoApaso"; }
   .imagen-blog {
     width: 400px;
     height: 300px; } }
 
-/* ---------------------------------------------------------------------------------------------------CONTACTO */
-.encabezado-contacto {
-  color: #3C4F76;
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: 500;
-  font-family: 'Jost', sans-serif;
-  margin: 50px; }
-
-.lista-contacto {
-  list-style-type: none;
-  padding: 20px; }
-
-.ubicacion {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  padding-left: 0px; }
-
-/*Inicia MEDIA QUERIES */
+/*----------------------------------------------------------------------------------------------------MEDIA QUERIES CONTACTO */
 @media screen and (min-width: 480px) {
   .encabezado-contacto {
     font-size: 2em; } }

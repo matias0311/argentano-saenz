@@ -4,7 +4,7 @@
     text-align: center;
     font-size: 1.5em;
     font-weight: 500;
-    font-family: 'Jost', sans-serif;
+    font-family: $fuente-encabezados, sans-serif;
     margin: 40px;
 }
 .lista-comoFunciona{
@@ -18,7 +18,7 @@
 .texto-comoFunciona{
     font-size: 1.2em;
     font-weight: 400;
-    font-family: 'Dosis', sans-serif;
+    font-family: $fuente-texto, sans-serif;
 }
 .ordenar{
     animation-name: aparece;
@@ -69,12 +69,3 @@
     }
 }
 
-/*Inicia MEDIA QUERIES */
-@media screen and (min-width: 480px) {
-    .texto-comoFunciona{
-        font-size: 1.6em;
-    }
-    .encabezado-comoFunciona{
-        font-size: 2em;
-    }
-}

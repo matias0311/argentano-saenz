@@ -1,11 +1,8 @@
 /* -----------------------------------------------------------------------------------------------------------BLOG */
 .encabezado-blog{
+    @include encabezado;
     color: $color-secondary;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: 500;
     font-family: $fuente-encabezados, sans-serif;
-    margin: 50px;
 }
 .encabezado2-blog{
     margin: 5px;

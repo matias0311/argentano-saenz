@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* Variables de Colores */
 /* Variables de Fuentes */
+/* Mixin */
 /* ----------------------------------------------------------------------------------------ESTILOS GENERALES */
 body {
   background-color: #ffffff;
@@ -11,6 +12,7 @@ body {
 main {
   grid-area: main; }
 
+/* ----------------------------------------------------------------------------------------GENERAL */
 /* ---------------------------------------------------------------------------------------------HEADER */
 .imagen-logo {
   width: 210px;
@@ -75,6 +77,18 @@ footer {
   animation-duration: 1.5s;
   animation-delay: .5s; }
 
+.red-facebook {
+  fill: #4b4bae; }
+
+.red-instragam {
+  fill: #f276dc; }
+
+.red-whatsapp {
+  fill: #25e225; }
+
+.red-telefono {
+  fill: white; }
+
 /* -------------------------------------------------------------------------------------------INDEX */
 .texto-index {
   text-align: center;
@@ -84,21 +98,21 @@ footer {
   margin: 20px; }
 
 .encabezado-index {
-  color: #3C4F76;
   text-align: center;
   font-size: 1.1em;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
-  margin-top: 50px; }
+  margin-top: 50px;
+  color: #3C4F76;
+  font-family: "Jost", sans-serif; }
 
 /* ------------------------------------------------------------------------------------------COMO FUNCIONA */
 .encabezado-comoFunciona {
-  color: #3C4F76;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
-  margin: 40px; }
+  margin-top: 50px;
+  color: #3C4F76;
+  font-family: "Jost", sans-serif; }
 
 .lista-comoFunciona {
   list-style-type: none;
@@ -113,34 +127,24 @@ footer {
   font-weight: 400;
   font-family: "Dosis", sans-serif; }
 
-.ordenar {
+.aparece, .ordenar, .armar, .enviar, .pagar, .disfrutar {
   animation-name: aparece;
   animation-iteration-count: 1;
-  animation-timing-function: ease;
+  animation-timing-function: ease; }
+
+.ordenar {
   animation-duration: 2s; }
 
 .armar {
-  animation-name: aparece;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
   animation-duration: 3s; }
 
 .enviar {
-  animation-name: aparece;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
   animation-duration: 4s; }
 
 .pagar {
-  animation-name: aparece;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
   animation-duration: 5s; }
 
 .disfrutar {
-  animation-name: aparece;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
   animation-duration: 6s; }
 
 @keyframes aparece {
@@ -159,12 +163,12 @@ footer {
 
 /* -------------------------------------------------------------------------------------------------PRODUCTOS */
 .encabezado-productos {
-  color: #3C4F76;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
-  margin: 50px; }
+  margin-top: 50px;
+  color: #3C4F76;
+  font-family: "Jost", sans-serif; }
 
 .subencabezado-productos {
   color: black;
@@ -208,12 +212,12 @@ footer {
 
 /* -----------------------------------------------------------------------------------------------------------BLOG */
 .encabezado-blog {
-  color: #3C4F76;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
-  margin: 50px; }
+  margin-top: 50px;
+  color: #3C4F76;
+  font-family: "Jost", sans-serif; }
 
 .encabezado2-blog {
   margin: 5px;
@@ -248,12 +252,12 @@ footer {
 
 /* ---------------------------------------------------------------------------------------------------CONTACTO */
 .encabezado-contacto {
-  color: #3C4F76;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
-  margin: 50px; }
+  margin-top: 50px;
+  color: #3C4F76;
+  font-family: "Jost", sans-serif; }
 
 .lista-contacto {
   list-style-type: none;

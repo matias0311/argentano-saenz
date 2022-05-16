@@ -7,10 +7,7 @@
     margin: 20px;
 }
 .encabezado-index{
+    @include encabezado;
     color: $color-secondary;
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: 500;
     font-family: $fuente-encabezados, sans-serif;
-    margin-top: 50px;
 }

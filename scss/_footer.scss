@@ -52,3 +52,11 @@ footer{
     animation-duration: 1.5s;
     animation-delay: .5s;
 }
+$redes: (
+    facebook: #4b4bae,
+    instragam: #f276dc,
+    whatsapp: #25e225,
+    telefono: white,
+    );
+
+@each $red, $color in $redes { .red-#{$red} {fill: $color;} }

@@ -1,11 +1,8 @@
 /* ------------------------------------------------------------------------------------------COMO FUNCIONA */
 .encabezado-comoFunciona{
+    @include encabezado;
     color: $color-secondary;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: 500;
     font-family: $fuente-encabezados, sans-serif;
-    margin: 40px;
 }
 .lista-comoFunciona{
     list-style-type: none;
@@ -20,34 +17,29 @@
     font-weight: 400;
     font-family: $fuente-texto, sans-serif;
 }
-.ordenar{
+.aparece{
     animation-name: aparece;
     animation-iteration-count: 1;
     animation-timing-function: ease;
+}
+.ordenar{
+    @extend .aparece;
     animation-duration: 2s;
 }
 .armar{
-    animation-name: aparece;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
+    @extend .aparece;
     animation-duration: 3s;
 }
 .enviar{
-    animation-name: aparece;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
+    @extend .aparece;
     animation-duration: 4s;
 }
 .pagar{
-    animation-name: aparece;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
+    @extend .aparece;
     animation-duration: 5s;
 }
 .disfrutar{
-    animation-name: aparece;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
+    @extend .aparece;
     animation-duration: 6s;
 }
 @keyframes aparece{

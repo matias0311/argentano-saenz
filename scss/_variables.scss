@@ -7,3 +7,11 @@ $color-tertiary: black;
 $fuente-links: 'Roboto';
 $fuente-encabezados: 'Jost';
 $fuente-texto: 'Dosis';
+
+/* Mixin */
+@mixin encabezado {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 50px;
+}

@@ -5,9 +5,7 @@
 body {
   background-color: #ffffff;
   display: grid;
-  grid-template-areas: "header"
- "main"
- "footer"; }
+  grid-template-areas: "header" "main" "footer"; }
 
 /* ----------------------------------------------------------------------------------------------MAIN */
 main {
@@ -232,16 +230,12 @@ footer {
 
 .chocotorta {
   display: grid;
-  grid-template-areas: "titulo"
- "foto" 
- "ingredientes" 
- "pasoApaso"; }
+  grid-template-areas: "titulo" "foto"  "ingredientes"  "pasoApaso"; }
 
 .alfajorcitosMaicena {
   padding-top: 50px;
   display: grid;
-  grid-template-areas: "titulo"
- "foto"; }
+  grid-template-areas: "titulo" "foto"; }
 
 .foto {
   grid-area: foto;
@@ -339,13 +333,11 @@ footer {
 @media screen and (min-width: 992px) {
   .chocotorta {
     display: grid;
-    grid-template-areas: "titulo titulo titulo"
- "foto ingredientes pasoApaso"; }
+    grid-template-areas: "titulo titulo titulo" "foto ingredientes pasoApaso"; }
   .alfajorcitosMaicena {
     padding-top: 50px;
     display: grid;
-    grid-template-areas: "titulo titulo titulo"
- "foto ingredientes pasoApaso"; }
+    grid-template-areas: "titulo titulo titulo" "foto ingredientes pasoApaso"; }
   .imagen-blog {
     width: 400px;
     height: 300px; } }
